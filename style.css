@@ -1,0 +1,48 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+form{
+    text-align: center;
+}
+
+form, .userlist {
+    padding: 3vh 0;
+    background-color: gray;
+    width: 25vw;
+}
+
+label {
+    margin-right: 2vh;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+input {
+    margin-top: 2vh;
+    font-size: 2vw;
+    background-color: darkgrey;
+    border: none;
+    padding: 0.5vh 0.5vw;
+}
+
+.user {
+    margin: 1vw;
+    border: 1px solid darkgray;
+    width: 80%;
+    padding: 1vw;
+    box-shadow: 5px 5px black;
+    max-height: calc(100px + 2vw);
+    position: relative;
+}
+
+.user a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    position: absolute;
+    margin: calc(50px - 0.75vw) 0 0 1vw;
+    text-shadow: 1px 1px darkgray;
+}
